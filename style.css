@@ -1,0 +1,70 @@
+header {
+  background-color: red;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+main {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/350px-Tsunami_by_hokusai_19th_century.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* vh is viewheight to keep it responsive */
+  min-height: 70vh;
+  /* define flex in body */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#ProfilePic {
+  height: 10vw;
+  margin: 16px;
+}
+#myQuote {
+  margin: 2vh, 5vw;
+}
+a {
+  margin: 20px;
+}
+footer {
+  background-color: red;
+  min-height: 15vh;
+  /* will use this method 'display flex' to move around content */
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 40px;
+  color: bisque;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+h2 {
+  font-size: 32px;
+  text-decoration: underline;
+  color: rgb(236, 75, 75);
+  text-align: center;
+}
+section {
+  /* margins different to create cards */
+  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  /* o that text is not stuck to cards */
+  padding: 40px 10px;
+  width: 25vw;
+}
+
+#descriptionMe {
+  text-align: left;
+  margin: 2px;
+}
+p {
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-right: 16px;
+  text-align: left;
+}
